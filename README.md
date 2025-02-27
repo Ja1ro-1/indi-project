@@ -1,2 +1,0 @@
-# indi-project
-project individuelle
