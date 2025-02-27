@@ -1,20 +1,21 @@
+
 body {
     background-color: rgb(100, 133, 176);
     margin: 0;
     padding: 0;
     height: 100vh;
     overflow-x: hidden;
-    
 }
 
-.logo {
+
+#home-pagina header img {
     display: flex;
     justify-content: center;  
     width: 20em;
     margin-left: 5.8%;
 }
 
-.left-image {
+#home-pagina main img:first-of-type { 
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -23,64 +24,35 @@ body {
     margin-top: -15%;
     float: right;
     margin-right: 40%;
-    margin-bottom:-10%;
+    margin-bottom: -10%;
 }
 
-.text-content {
+#home-pagina p {
     margin-top: 10%;
     margin: 10px;
     font-size: large;
     margin-bottom: 5%;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white  
-   
-    
-    
-      
+    color: white;
 }
-.introductie {
+
+#home-pagina h1 {
     color: white;
     text-align: left;
     margin-top: 10%;
     margin: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.4em;
-    
-    
-    
 }
 
-.rechter-boomstam {
+#home-pagina main img:last-of-type { 
     float: right;
     width: 50%; 
     margin-bottom: 10%;
 }
 
-.tropentuin-balk{
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    margin-bottom: 0%;
-    margin-top: -15%;
-    margin-bottom: -5%;
-}
-.locatie-balk {
-display: flex;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    margin-bottom: 0%;
-    margin-top: -1%;
-}
-.foto-tropentuin1 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
- 
-}
-.styled-button {
+#home-pagina main a {
     display: inline-block; 
     text-decoration: none; 
     color: white; 
@@ -96,44 +68,177 @@ display: flex;
     margin-bottom: 40%;
     margin-left: 15.9%;
     margin-top: -7%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 10; 
+}
+
+footer img {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: -10%;
+    left: 0;
+    width: 113%;
+    height: auto;
+    margin-left: -12.0%;
+    margin-bottom: 17%;
+}
+
+footer nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    margin-right: 4%; 
+    padding: 0; 
+    margin-bottom: 8%; 
+    list-style: none; 
+    text-decoration: none;
+}
+
+footer nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.0em; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px black;
+    margin-top: -10%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+
+#tropentuin-pagina {
+    background-color: rgb(100, 133, 176);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+#tropentuin-pagina header img {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: -15%;
+    margin-bottom: -5%;
+}
     
+
+
+#tropentuin-pagina main img:first-of-type {
+    display: flex;
+    width: 100%;
+}
+
+
+#tropentuin-pagina main img:nth-of-type(2) {
+    max-width: 100%;
+    margin-top: -25%;
+    margin-left: -2%;
+}
+
+
+#tropentuin-pagina main img:nth-of-type(3) {
+    max-width: 100%;
+    margin-top: -30%;
+}
+
+
+#tropentuin-pagina h1 {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    margin-top: -15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8%;
+}
+
+#tropentuin-pagina h2 {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    margin-top: -10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 13%;
+}
+
+
+
+
+#tropentuin-pagina footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#tropentuin-pagina footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: -15%; 
+    height: auto;
+    margin-top: 30%;
     
 }
-.textstukjep{
-    margin-top: 9%;
-    font-size: 1.2em;
-    margin: 14px;
+
+
+#tropentuin-pagina footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    list-style: none;
+}
+
+#tropentuin-pagina footer nav ul li a {
+    text-decoration: none;
     color: white;
-    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.textstukje{
-        font-size: 1.4em;
-        margin: 14px;
-        color: white;
-        text-align: center;
-        margin-top: -15%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-}
+
 .boomstrooklinks {
     margin-top: -25%;
     max-width: 100%;
     margin-left: -2%;
-    
 }
-.rechterboomstruik{
-    max-width: 100%;
-    margin-top: -30%;
-    
-}
+
+
 .rechterboomstruik2{
     max-width: 100%;
     margin-top: -30%;
     margin-left: 0%;
-
 }
+
 footer {
     display: flex;
     justify-content: center;
@@ -158,8 +263,6 @@ footer {
     margin-bottom: 17%;
 }
 
-
-
 footer nav ul {
     display: flex; 
     justify-content: space-around; 
@@ -174,9 +277,8 @@ footer nav ul {
     margin-bottom: 8%; 
     list-style: none; 
     text-decoration: none;
+    
 }
-
-
 
 footer nav ul li a {
     text-decoration: none; 
@@ -188,54 +290,6 @@ footer nav ul li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
-.zelfaandeslag {
-    padding-bottom: 40%;
-    text-align: center;
-    margin: 14px;
-    font-size: 1.2em;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: normal;
-        margin-top: -9%;
-    
-    
-}
-.h2tekst {
-    text-align: center;
-    margin-bottom: 14%;
-    font-size: 1.4em;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: -10%;
-}
-
-.nav-balktropentuinen {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: -5%; 
-    width: 100%;
-    height: auto;
-    margin-top: 30%;
-    
-
-    
-}
-.introductie-tropentuin{
-    
-    text-align: center;
-    margin-bottom: -10%;
-    font-size: 1.0em;
-    color: white;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 0%;
-    font-weight: normal;
-   padding: 1.0em;
-   margin-left: -3%;
-   
-}
 
 .openingstijden-kop {
     font-size: 1.5em; 
@@ -248,7 +302,6 @@ footer nav ul li a {
     margin-left: 4%;
 }
 
-
 .adres-tekst{
     font-size: 1.1em; 
     font-weight: normal; 
@@ -259,9 +312,8 @@ footer nav ul li a {
     text-align: left;
     padding: 1.0em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    
 }
+
 .adres-kop{
     font-size: 1.5em; 
     font-weight: bold;
@@ -271,10 +323,8 @@ footer nav ul li a {
     margin-top: -10%;
     margin-bottom: 15%;
     margin-left: 5%;
-    
-
-
 }
+
 .openingstijden-tekst {
     color: white;
     font-weight: normal;  
@@ -285,25 +335,49 @@ footer nav ul li a {
     margin-top: -17%;
     text-align: left;
     padding: 1.0em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-    
-    .boomstrooklinks2{
-     margin-top: -30%;   
+.boomstrooklinks2{
+    margin-top: -30%;   
     max-width: 100%;
     margin-left: -2%;
     padding-bottom: 3em;
-    
-    }
-    .ontdek-tropentuin{
-        text-align: center;
-        color: #ffffff; 
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: normal;
-        margin-top: -15%;
-        font-size: large;
-        margin-left: -5%;
-        padding-bottom: 8em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    }
+}
+.introductie-tropentuin {
+    text-align: center;
+    margin-bottom: -10%;
+    font-size: 1.0em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0%;
+    font-weight: normal;
+    padding: 1.0em;
+    margin-left: -3%;
+}
+.locatie-balk {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: -1%;
+}
+.zelfaandeslag {
+    padding-bottom: 50%;
+    text-align: center;
+    margin: 14px;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    margin-top: -9%;
+}
+.textstukjep {
+    margin-top: 9%;
+    font-size: 1.2em;
+    margin: 14px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
